@@ -6,7 +6,6 @@
 }
 
 .whychose-sec {
-  background-color: #f4f7fc;
   padding: 60px;
   padding-top: 120px;
   padding-left: 12rem;
@@ -16,6 +15,8 @@
   margin-top: 50px;
   display: flex;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .inner-hdr {
