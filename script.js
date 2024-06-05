@@ -27,7 +27,7 @@ document.querySelector("#myForm").addEventListener("submit", function (e) {
 
   // Send post request to the server
   fetch(
-    "https://forms.hubspot.com/uploads/form/v2/23736002/688d8b8a-37c8-4bf1-bd94-9e2e31d4c0d8",
+    "https://forms.hubspot.com/uploads/form/v2/23736002/bf5b26ce-e909-46c2-9678-80f67417a343",
     {
       method: "POST",
       body: formData,
