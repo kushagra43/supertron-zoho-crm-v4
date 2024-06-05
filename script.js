@@ -131,49 +131,49 @@ const slidesContent = [
       "“Dropbox has been tremendously helpful for social media. I can hop on anytime and pull whatever photo is inspiring me to post.”",
     author: "Mary Ashley Krogh (MAK)",
     post: " Illustrator and Graphic Designer",
-    src: "carouselimg1.webp",
+    src: "/zoho-crm-v4/carouselimg1.webp",
   },
   {
     right:
       "“Dropbox increased our team’s collaboration while working from home, which has increased our flexibility and could revolutionise our office culture.”",
     author: "Adam Montgomery",
     post: "Senior Manager of Programming, Sundance Film Festival",
-    src: "carouselimg2.webp",
+    src: "/zoho-crm-v4/carouselimg2.webp",
   },
   {
     right:
       "“We’re a grass-roots non-profit. When we use a tool that the rest of the design world uses, it helps professionalise our organisation.”",
     author: "Ann Kappes",
     post: "Director of Art Partnerships at Creativity Explored",
-    src: "carouselimg3.webp",
+    src: "/zoho-crm-v4/carouselimg3.webp",
   },
   {
     right:
       "“My sister and I store and share recipes, and I use the app on my phone to look up ingredients while I’m at the grocery store. It’s very convenient and user friendly, without a lot of overhead.”      ",
     author: "Lynette Elliot",
     post: "",
-    src: "carouselimg4.webp",
+    src: "/zoho-crm-v4/carouselimg4.webp",
   },
   {
     right:
       "“Our team is working remotely – everyone’s in a different time zone. Dropbox is a great hub for us to all work at once and seamlessly share files.” ",
     author: "Sophia Chang",
     post: "Illustrator and Designer",
-    src: "carouselimg5.webp",
+    src: "/zoho-crm-v4/carouselimg5.webp",
   },
   {
     right:
       "“Dropbox version control is very important. You may want to go back to an earlier version because there’s an idea in there that you really like.”",
     author: "Sahir Zaveri",
     post: "CEO of King Children",
-    src: "carouselimg6.webp",
+    src: "/zoho-crm-v4/carouselimg6.webp",
   },
   {
     right:
       "“We store important photos and documents for our family on Dropbox. Not only do I know they are in a safe location, but I’m also able to access them from anywhere.” ",
     author: "Sarah Shelton",
     post: "",
-    src: "carouselimg7.webp",
+    src: "/zoho-crm-v4/carouselimg7.webp",
   },
 ];
 
