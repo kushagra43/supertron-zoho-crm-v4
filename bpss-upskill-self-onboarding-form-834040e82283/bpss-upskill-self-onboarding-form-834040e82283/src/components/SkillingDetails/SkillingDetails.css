@@ -1,0 +1,40 @@
+.features {
+  .box {
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background-color: #fff;
+    text-align: center;
+    padding: 32px;
+  }
+
+  .number {
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .details {
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .features {
+    .box {
+      padding: 32px 20px;
+      margin-bottom: 10px;
+      border-radius: 0;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%),
+      linear-gradient(to right, #FCF6F9 0%, #F1E7EF 25%, #D8E7F2 50%, #BDE9F8 100%);
+      background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%),
+      -webkit-linear-gradient(to right, #FCF6F9 0%, #F1E7EF 25%, #D8E7F2 50%, #BDE9F8 100%);
+    }
+  }
+}
