@@ -49,9 +49,16 @@
   <nav class="nav-container flex center">
     <div class="flex spacebetween container">
       <img src="/dropbox/Frame 1.png" alt="" class="navlogo" />
-      <button onclick="topNameFunction()" class="redbutton">
-        Talk To Us
-      </button>
+      <div style="display: flex; justify-content: center; flex-direction: column; align-items: center; gap: 2px;">
+
+        <button onclick="topNameFunction()" class="redbutton">
+          Get Quote
+        </button>
+        <p class="whiteparah small center991 red-blue">
+          Get 5% Discount
+        </p>
+
+      </div>
     </div>
   </nav>
 
@@ -64,11 +71,11 @@
         </h1>
         <p class="whiteparah normal mb20">
           Edit PDFs, share videos, sign documents, and collaborate seamlessly with internal & external stakeholders—all
-          without leaving Dropbox.
+          without leaving <b>Dropbox</b> .
         </p>
         <div class="btn-fix">
           <!-- <button onclick="topNameFunction()" class="redbutton" style="margin-top: 20px">
-            Talk To Us
+            Get Quote
           </button> -->
           <p class="whiteparah small red-blue" style="margin-top: 10px">
           </p>
@@ -83,23 +90,18 @@
               Consult Supertron to migrate to Dropbox
             </p>
             <input name="first_name" type="text" class="header-input mb20" placeholder="Full Name" id="fullName" />
-            <!-- <input
-                name="last_name"
-                type="text"
-                class="header-input mb20"
-                placeholder="Last Name"
-              /> -->
             <input name="email" type="email" class="header-input mb20" placeholder="Work Email" required />
-            <p id="emailError" class="whiteparah small mb20"></p>
             <input name="company" type="text" class="header-input mb20" placeholder="Company Name" required />
             <input name="mobilephone" type="tel" class="header-input mb20" placeholder="Phone Number" required />
+            <p id="emailError" class="whiteparah small mb20"></p>
             <p id="mobileError" class="whiteparah small mb20">
               Please enter a valid 10 digit mobile number
             </p>
 
             <div class="flex justifyend">
-              <input type="submit" class="redbutton" placeholder="Talk to us" />
+              <input type="submit" class="redbutton" placeholder="Get Quote" />
             </div>
+
           </form>
           <p id="thankYou" class="whiteparah normal center">
             Thank you for submitting the form.
@@ -117,42 +119,48 @@
       <div class="flex center text-center flex-column">
         <h2 class="blueheadingbig mb60">Why Choose Supertron for Dropbox ?</h2>
         <div class="why flex stretch text-center flex-row" style="max-width: 1250px">
-          <div class="flex flex-column flex1 center">
-            <img src="/dropbox/why-1.png" alt="" class="mb20 pointer" />
-            <p class="whiteparah" style="text-align: center; color: black">
+          <div class="flex flex-column flex1 center" style="justify-content: start;">
+            <img src="/dropbox/why-1.png" alt="" class="mb20 pointer" style="height: 3rem;" />
+            <p class="whiteparah"
+              style="text-align: center; color: black; height: 4rem; width: 100%; display: flex; justify-content: center; align-items: start;">
               Global Delivery Experience
             </p>
           </div>
-          <div class="flex flex-column flex1 center details-middle-2">
-            <img src="/dropbox/why-2.png" alt="" class="mb20 pointer" />
-            <p class="whiteparah" style="text-align: center; color: black">
+          <div class="flex flex-column flex1 center details-middle-2" style="justify-content: start;">
+            <img src="/dropbox/why-2.png" alt="" class="mb20 pointer" style="height: 3rem;" />
+            <p class="whiteparah"
+              style="text-align: center; color: black; height: 4rem; width: 100%; display: flex; justify-content: center; align-items: start;">
               Faster Migration & Implementation
             </p>
           </div>
-          <div class="flex flex-column flex1 center">
-            <img src="/dropbox/why-3.png" alt="" class="mb20 pointer" />
-            <p class="whiteparah" style="text-align: center; color: black">
+          <div class="flex flex-column flex1 center" style="justify-content: start;">
+            <img src="/dropbox/why-3.png" alt="" class="mb20 pointer" style="height: 3rem;" />
+            <p class="whiteparah"
+              style="text-align: center; color: black; height: 4rem; width: 100%; display: flex; justify-content: center; align-items: start;">
               Exclusive Pricing Plans
             </p>
           </div>
-          <div class="flex flex-column flex1 center details-middle-2">
-            <img src="/dropbox/why-4.png" alt="" class="mb20 pointer" />
-            <p class="whiteparah" style="text-align: center; color: black">
+          <div class="flex flex-column flex1 center details-middle-2" style="justify-content: start;">
+            <img src="/dropbox/why-4.png" alt="" class="mb20 pointer" style="height: 3rem;" />
+            <p class="whiteparah"
+              style="text-align: center; color: black; height: 4rem; width: 100%; display: flex; justify-content: center; align-items: start;">
               Zero<br />Downtime
             </p>
           </div>
-          <div class="flex flex-column flex1 center">
-            <img src="/dropbox/why-5.png" alt="" class="mb20 pointer" />
-            <p class="whiteparah" style="text-align: center; color: black">
+          <div class="flex flex-column flex1 center" style="justify-content: start;">
+            <img src="/dropbox/why-5.png" alt="" class="mb20 pointer" style="height: 3rem;" />
+            <p class="whiteparah"
+              style="text-align: center; color: black; height: 4rem; width: 100%; display: flex; justify-content: center; align-items: start;">
               Based On Use Case
             </p>
           </div>
         </div>
         <div class="center flex flex-column p60v">
           <button onclick="topNameFunction()" class="redbutton" style="margin-bottom: 5px">
-            Talk To Us
+            Get Quote
           </button>
           <p class="whiteparah small center991 red-blue">
+            Get 5% Discount
           </p>
         </div>
       </div>
@@ -164,8 +172,9 @@
   <section class="logoMarqueeSection">
     <div class="container" id="logoMarqueeSection">
       <div class="marqueehead" style="display: flex; flex-direction: column; gap: 10px;">
-        <h1 class="marqueeheading">Join over 700 Mn Registered Users Who Trust Dropbox</h1>
-        <h4 style="text-align: center; color: gray;">Easy to use, reliable, private & secure — The perfect choice for storing and sharing your most important files!</h4>
+        <h1 class="marqueeheading">Join over 700 million+ users who trust Dropbox</h1>
+        <span style="text-align: center; color: black; margin-bottom: 40px; margin-top: 10px;">Easy to use, reliable,
+          private & secure — The perfect choice for storing and sharing your most important files!</span>
       </div>
       <div class="default-content-container flex items-center">
         <div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
@@ -176,7 +185,8 @@
             <a target="_blank"><img src="/dropbox/logo4.jpg" title="" class="marqueelogo" style=" max-width: none;"></a>
             <a target="_blank"><img src="/dropbox/logo5.jpg" title="" class="marqueelogo" style=" max-width: none;"></a>
             <a target="_blank"><img src="/dropbox/logo6.jpg" title="" class="marqueelogo" style=" max-width: none;"></a>
-            <a target="_blank"><img src="/dropbox/university-college-london-ucl-vector-logo.png" title="" class="marqueelogo" style=" max-width: none;"></a>
+            <a target="_blank"><img src="/dropbox/university-college-london-ucl-vector-logo.png" title="" class="marqueelogo"
+                style=" max-width: none;"></a>
             <a target="_blank"><img src="/dropbox/logo8.jpg" title="" class="marqueelogo" style=" max-width: none;"></a>
             <a target="_blank"><img src="/dropbox/logo9.jpg" title="" class="marqueelogo" style=" max-width: none;"></a>
             <a target="_blank"><img src="/dropbox/logo10.jpg" title="" class="marqueelogo" style=" max-width: none;"></a>
@@ -187,21 +197,36 @@
             <a target="_blank"><img src="/dropbox/logo15.jpg" title="" class="marqueelogo" style=" max-width: none;"></a>
           </div>
           <div class="marquee" style="animation-duration: 57s;">
-            <a target="_blank"><img src="/dropbox/logo1.jpg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-            <a target="_blank"><img src="/dropbox/logo2.jpg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-            <a target="_blank"><img src="/dropbox/logo3.jpg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-            <a target="_blank"><img src="/dropbox/logo4.jpg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-            <a target="_blank"><img src="/dropbox/logo5.jpg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-            <a target="_blank"><img src="/dropbox/logo6.jpg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-            <a target="_blank"><img src="/dropbox/logo7.jpg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-            <a target="_blank"><img src="/dropbox/logo8.jpg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-            <a target="_blank"><img src="/dropbox/logo9.jpg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-            <a target="_blank"><img src="/dropbox/logo10.jpg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-            <a target="_blank"><img src="/dropbox/logo11.jpg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-            <a target="_blank"><img src="/dropbox/logo12.jpg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-            <a target="_blank"><img src="/dropbox/logo13.jpg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-            <a target="_blank"><img src="/dropbox/logo14.jpg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-            <a target="_blank"><img src="/dropbox/logo15.jpg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+            <a target="_blank"><img src="/dropbox/logo1.jpg" title="" class="marqueelogo"
+                style="width: auto; max-width: none;"></a>
+            <a target="_blank"><img src="/dropbox/logo2.jpg" title="" class="marqueelogo"
+                style="width: auto; max-width: none;"></a>
+            <a target="_blank"><img src="/dropbox/logo3.jpg" title="" class="marqueelogo"
+                style="width: auto; max-width: none;"></a>
+            <a target="_blank"><img src="/dropbox/logo4.jpg" title="" class="marqueelogo"
+                style="width: auto; max-width: none;"></a>
+            <a target="_blank"><img src="/dropbox/logo5.jpg" title="" class="marqueelogo"
+                style="width: auto; max-width: none;"></a>
+            <a target="_blank"><img src="/dropbox/logo6.jpg" title="" class="marqueelogo"
+                style="width: auto; max-width: none;"></a>
+            <a target="_blank"><img src="/dropbox/logo7.jpg" title="" class="marqueelogo"
+                style="width: auto; max-width: none;"></a>
+            <a target="_blank"><img src="/dropbox/logo8.jpg" title="" class="marqueelogo"
+                style="width: auto; max-width: none;"></a>
+            <a target="_blank"><img src="/dropbox/logo9.jpg" title="" class="marqueelogo"
+                style="width: auto; max-width: none;"></a>
+            <a target="_blank"><img src="/dropbox/logo10.jpg" title="" class="marqueelogo"
+                style="width: auto; max-width: none;"></a>
+            <a target="_blank"><img src="/dropbox/logo11.jpg" title="" class="marqueelogo"
+                style="width: auto; max-width: none;"></a>
+            <a target="_blank"><img src="/dropbox/logo12.jpg" title="" class="marqueelogo"
+                style="width: auto; max-width: none;"></a>
+            <a target="_blank"><img src="/dropbox/logo13.jpg" title="" class="marqueelogo"
+                style="width: auto; max-width: none;"></a>
+            <a target="_blank"><img src="/dropbox/logo14.jpg" title="" class="marqueelogo"
+                style="width: auto; max-width: none;"></a>
+            <a target="_blank"><img src="/dropbox/logo15.jpg" title="" class="marqueelogo"
+                style="width: auto; max-width: none;"></a>
           </div>
 
         </div>
@@ -209,57 +234,197 @@
     </div>
   </section>
 
-
-
-  <div class="whychose-sec" style="background-color: black; padding-top: 30px;">
-    <h2 class="inner-hdr" style="display: flex; justify-content: center; align-items: center; color: white;">
-      What can you do with Dropbox ?
+  <div class="whychose-sec" style="
+    background-color: #f4f7fc;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+  ">
+    <h2 class="featureh1 inner-hdr" style="
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      font-weight: 500;
+      text-align: center;
+    ">
+      Experience Seamless Migration To Dropbox With Supertron!
     </h2>
   </div>
 
+  <div class="features-div" style="
+        padding: 4rem;
+        background-color: #f4f7fc;
+        padding-bottom: 6rem;
+        padding-top: 2rem;
+      ">
+    <div class="feature-div1" style="
+          display: flex;
+          flex-direction: columns;
+          justify-content: start;
+          align-items: center;
+        ">
+      <img src="/dropbox/hand-shake-handshake.svg" alt="" class="feature-img" />
+      <p style="
+            color: black;
+            height: 60px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size:20px;
+          ">
+        Seamless Team Collaboration
+      </p>
+      <p class="feature-p" style="color: black">
+        Dropbox Business allows real-time document collaboration, folder sharing, and commenting, ensuring efficient teamwork.
+      </p>
+    </div>
+    <div class="feature-div1" style="
+          display: flex;
+          flex-direction: columns;
+          justify-content: start;
+          align-items: center;
+        ">
+      <img src="/dropbox/security.svg" alt="" class="feature-img" />
+      <p style="
+            color: black;
+            height: 60px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size:20px;
+          ">
+        Advanced Security Features </p>
+      <p style="color: black" class="feature-p">
+        Keep business-critical information secure with admin controls, remote wipe, and vault capabilities in Dropbox Business.
+      </p>
+    </div>
+    <div class="feature-div1" style="
+          display: flex;
+          flex-direction: columns;
+          justify-content: start;
+          align-items: center;
+        ">
+      <img src="/dropbox/file-right-svgrepo-com.svg" alt="" class="feature-img" />
+      <p style="
+            color: black;
+            height: 60px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size:20px;
+          ">
+        24/7 <br />
+        Centralized File Management </p>
+      <p style="color: black" class="feature-p">
+        Organize and store all your business files in one central hub with Dropbox Business, eliminating scattered documents.
+      </p>
+    </div>
+    <div class="feature-div1" style="
+          display: flex;
+          flex-direction: columns;
+          justify-content: start;
+          align-items: center;
+        ">
+      <img src="/dropbox/scale-out-repository-svgrepo-com.svg" alt="" class="feature-img" />
+      <p style="
+            color: black;
+            height: 60px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size:20px;
+          ">
+        Scalability and Flexibility
+      </p>
+      <p style="color: black" class="feature-p">
+        Dropbox Business grows with you, offering scalable storage plans and the ability to add users as needed.
+      </p>
+    </div>
+    <div class="feature-div1" style="
+          display: flex;
+          flex-direction: columns;
+          justify-content: start;
+          align-items: center;
+        ">
+      <img src="/dropbox/signature-svgrepo-com.svg" alt="" class="feature-img" />
+      <p style="
+            color: black;
+            height: 60px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size:20px;
+          ">
+        Built-in eSignatures and PDF Editing </p>
+      <p style="color: black" class="feature-p">
+        Streamline document workflows with unlimited eSignatures and basic PDF editing in Dropbox Business.
+      </p>
+    </div>
+  </div>
 
-  <div class="features" style="background-color: black;" >
-<!-- 
+  <div class="whychose-sec" style="background-color: black; padding-top: 30px;">
+    <h2 class="inner-hdr" style="display: flex; justify-content: center; align-items: center; color: white; text-align: center;">
+      What Can You Do With Dropbox?
+    </h2>
+  </div>
+
+  <div class="features" style="background-color: black;">
+    <!-- 
     <h1 class="feature-h1">
       Dropbox handles more file types and larger files and has the fastest upload, download, and sync speeds!
     </h1> -->
 
     <div class="features-div">
 
-      <div class="feature-div" style="display: flex; flex-direction: columns; justify-content: start; align-items: center;">
+      <div class="feature-div"
+        style="display: flex; flex-direction: columns; justify-content: start; align-items: start; gap:5px">
         <img src="/dropbox/icon1.svg" alt="" class="feature-img">
-        <h3 style="color: white; height: 60px;">Store and protect your files
+        <h3 style="color: white; height: 50px; width:100%; font-size: 18px;">Store and protect your files
 
         </h3>
-        <p class="feature-p" style="color: white;">Starting at 3 TB of team storage and backup, with security features like file recovery, password protection, watermarking and viewer history.
+        <p class="feature-p" style="color: white;">Starting at 3 TB of team storage and backup, with security features
+          like file recovery, password protection, watermarking and viewer history.
         </p>
       </div>
-      <div class="feature-div" style="display: flex; flex-direction: columns; justify-content: start; align-items: center;">
-        
-        <img src="/dropbox/icon2.svg" alt="" class="feature-img" >
-        <h3 style="color: white; height: 60px;">Share your content
+      <div class="feature-div"
+        style="display: flex; flex-direction: columns; justify-content: start; align-items: start; gap:5px">
+
+        <img src="/dropbox/icon2.svg" alt="" class="feature-img">
+        <h3 style="color: white; height: 50px; width:100%; font-size: 18px;">Share your content
 
         </h3>
-        <p style="color: white;" class="feature-p">Forget email attachments. With Dropbox, you can deliver large files and share trackable links with real-time document analytics to help make data-driven decisions.
+        <p style="color: white;" class="feature-p">Forget email attachments. With Dropbox, you can deliver large files
+          and share trackable links with real-time document analytics to help make data-driven decisions.
 
         </p>
       </div>
-      <div class="feature-div" style="display: flex; flex-direction: columns; justify-content: start; align-items: center;">
+      <div class="feature-div"
+        style="display: flex; flex-direction: columns; justify-content: start; align-items: start; gap:5px">
         <img src="/dropbox/icon3.svg" alt="" class="feature-img">
-        <h3 style="color: white; height: 60px;">Collaborate on your work
+        <h3 style="color: white; height: 50px; width:100%; font-size: 18px;">Collaborate on your work
 
         </h3>
-        <p  style="color: white;" class="feature-p">Reduce meetings with Capture and use Replay to streamline feedback and approval processes on video projects.
+        <p style="color: white;" class="feature-p">Reduce meetings with Capture and use Replay to streamline feedback
+          and approval processes on video projects.
 
         </p>
       </div>
-      <div class="feature-div" style="display: flex; flex-direction: columns; justify-content: start; align-items: center;">
+      <div class="feature-div"
+        style="display: flex; flex-direction: columns; justify-content: start; align-items: start; gap:5px">
         <img src="/dropbox/icon4.svg" alt="" class="feature-img">
-        <h3 style="color: white; height: 60px;">Manage your business
+        <h3 style="color: white; height: 50px; width:100%; font-size: 18px;">Manage your business
 
 
         </h3>
-        <p style="color: white;" class="feature-p">Make it easy to prepare, send and eSign your most important contracts. Automate manual processes with tools like eSignature templates, which let you reuse documents in seconds.
+        <p style="color: white;" class="feature-p">Make it easy to prepare, send and eSign your most important
+          contracts. Automate manual processes with tools like eSignature templates, which let you reuse documents in
+          seconds.
 
         </p>
       </div>
@@ -268,63 +433,66 @@
   </div>
 
 
-<div class="main-container">
-  <h1 class="blueheadingbig" style="display: flex; justify-content: center; align-items: center;">Seamless Integrations With Vendors & APIs For Your Business!</h1>
-  <img src="/dropbox/dropboxlogo.png" alt="">
-  <div class="container1">
-    <div class="left1">
-      <img src="/dropbox/brand1.png" alt="">
-      <img src="/dropbox/brand2.png" alt="">
-      <img src="/dropbox/brand3.png" alt="">
-      <img src="/dropbox/brand4.png" alt="">
-      <img src="/dropbox/brand5.png" alt="">
-      <img src="/dropbox/brand6.png" alt="">
-      <img src="/dropbox/brand7.png" alt="">
-      <img src="/dropbox/brand8.png" alt="">
-      <img src="/dropbox/brand9.png" alt="">
-      <img src="/dropbox/brand10.png" alt="">
-      <img src="/dropbox/brand11.png" alt="">
-      <img src="/dropbox/brand12.png" alt="">
-      <img src="/dropbox/brand13.png" alt="">
-      <img src="/dropbox/brand14.png" alt="">
-      <img src="/dropbox/brand15.png" alt="">
-      <img src="/dropbox/brand16.png" alt="">
-      <img src="/dropbox/brand17.png" alt="">
-      <img src="/dropbox/brand18.png" alt="">
-      <img src="/dropbox/brand19.png" alt="">
-      <img src="/dropbox/brand20.png" alt="">
-      <img src="/dropbox/brand21.png" alt="">
-      <img src="/dropbox/brand22.png" alt="">
-      <img src="/dropbox/brand23.png" alt="">
-      <img src="/dropbox/brand24.png" alt="">
-      <img src="/dropbox/brand25.png" alt="">
-      <img src="/dropbox/brand26.png" alt="">
-      <img src="/dropbox/brand27.png" alt="">
-      <img src="/dropbox/brand28.png" alt="">
-      <img src="/dropbox/brand29.png" alt="">
-      <img src="/dropbox/brand30.png" alt="">
-      
-    </div>
-    <div class="right1">
-      <p><span>60B+</span> API calls/month</p>
-      <p><span>100M+</span> Registered developers</p>
-      <p><span>35%</span> More spent each month by integration MAUs (iMAUs) rather than non iMAUs</p>
-      <p><span>85%</span> Of active, paid DBX teams have linked a 3rd party app</p>
+  <div class="main-container">
+    <h1 class="blueheadingbig" style="display: flex; justify-content: center; align-items: center; text-align: center;">Seamless
+      Integrations With Vendors & APIs  <br> For Your Business!</h1>
+    <img src="/dropboxlogo.png" alt="">
+    <div class="container1">
+      <div class="left1">
+        <img src="/dropbox/brand1.png" alt="">
+        <img src="/dropbox/brand2.png" alt="">
+        <img src="/dropbox/brand3.png" alt="">
+        <img src="/dropbox/brand4.png" alt="">
+        <img src="/dropbox/brand5.png" alt="">
+        <img src="/dropbox/brand6.png" alt="">
+        <img src="/dropbox/brand7.png" alt="">
+        <img src="/dropbox/brand8.png" alt="">
+        <img src="/dropbox/brand9.png" alt="">
+        <img src="/dropbox/brand10.png" alt="">
+        <img src="/dropbox/brand11.png" alt="">
+        <img src="/dropbox/brand12.png" alt="">
+        <img src="/dropbox/brand13.png" alt="">
+        <img src="/dropbox/brand14.png" alt="">
+        <img src="/dropbox/brand15.png" alt="">
+        <img src="/dropbox/brand16.png" alt="">
+        <img src="/dropbox/brand17.png" alt="">
+        <img src="/dropbox/brand18.png" alt="">
+        <img src="/dropbox/brand19.png" alt="">
+        <img src="/dropbox/brand20.png" alt="">
+        <img src="/dropbox/brand21.png" alt="">
+        <img src="/dropbox/brand22.png" alt="">
+        <img src="/dropbox/brand23.png" alt="">
+        <img src="/dropbox/brand24.png" alt="">
+        <img src="/dropbox/brand25.png" alt="">
+        <img src="/dropbox/brand26.png" alt="">
+        <img src="/dropbox/brand27.png" alt="">
+        <img src="/dropbox/brand28.png" alt="">
+        <img src="/dropbox/brand29.png" alt="">
+        <img src="/dropbox/brand30.png" alt="">
+
+      </div>
+      <div class="right1">
+        <p><span>60B+</span> API calls/month</p>
+        <p><span>100M+</span> Registered developers</p>
+        <p><span>35%</span> More spent each month by integration MAUs (iMAUs) rather than non iMAUs</p>
+        <p><span>85%</span> Of active, paid DBX teams have linked a 3rd party app</p>
+      </div>
     </div>
   </div>
-</div>
-  
-  
+
+
 
 
   <div class="carousel-container">
-    <h1 class="marqueehead">What Dropbox Customers Are Saying!    </h1>
+    <h1 class="blueheadingbig" style="display: flex; justify-content: center; align-items: center;">What Dropbox
+      Customers Are Saying! </h1>
     <div class="carousel-content">
 
       <div class="carousel-left">
-        
+
         <div class="carousel-slide active ">
-          <img id="right-image" src="/dropbox/" alt="Company Logo" style="height: 20rem; width: 32rem; margin-left: 10px; border-radius: 15px;">
+          <img id="right-image" src="/dropbox/" alt="Company Logo"
+            style="height: 20rem; width: 32rem; margin-left: 10px; border-radius: 15px;">
         </div>
 
         <div class="carousel-controls">
@@ -351,7 +519,7 @@
 
       <div class="carousel-right">
         <div class="carousel-slide active">
-          <p id="right-paragraph" style="font-weight: 600;"></p>
+          <p id="right-paragraph" style="font-weight: 400;"></p>
           <div class="right-div-carousel">
             <div>
 
@@ -376,9 +544,10 @@
 
         <div class="btn-fix">
           <button onclick="topNameFunction()" class="redbutton" style="margin-top: 20px">
-            Talk To Us
+            Get Quote
           </button>
-          <p class="whiteparah small red-blue" style="margin-top: 10px">
+          <p class="whiteparah small" style="margin-top: 10px; color: white; ">
+            Get 5% Discount
           </p>
         </div>
       </div>
