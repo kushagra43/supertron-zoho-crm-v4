@@ -1298,10 +1298,10 @@ body {
     font-size: 14px;
   }
 
-  .navlogo{
-    height: 40px;
-    width: 150px;
-  }
+  .navlogo {
+    height: 25px;
+    width: 217px;
+}
 
   .small {
     font-size: 14px;
@@ -1398,7 +1398,12 @@ body {
     padding-right: 2rem;
     gap: 20px;
   }
-
+  .container {
+    max-width: 1300px;
+    width: 100%;
+    padding: 0px 20px;
+    overflow: hidden;
+}
   .right1 {
     margin-left: 20px;
     max-width: 100%;
