@@ -1294,6 +1294,15 @@ body {
     line-height: 20px;
   }
 
+  .navbar-button{
+    font-size: 14px;
+  }
+
+  .navlogo{
+    height: 20px;
+    width: 100px;
+  }
+
   .small {
     font-size: 14px;
   }
