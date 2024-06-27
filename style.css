@@ -334,7 +334,10 @@ a {
     padding-bottom: 6rem;
     gap: 3rem;
 }
-
+.feature-img{
+  height: 70px;
+  width: 70px;
+}
 .feature-h1 {
   font-weight: 500;
 }
